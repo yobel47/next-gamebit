@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Fredoka", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+.swiper-pagination-bullet-active {
+  background-color: #cb1f59 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 3px !important;
+}
+.swiper-scrollbar-drag {
+  background-color: #cb1f59 !important;
+}
